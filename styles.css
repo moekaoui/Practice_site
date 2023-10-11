@@ -1,0 +1,42 @@
+h1
+{
+  background-color: rgba(56, 47, 47, 0.678);
+  color: whitesmoke;
+  text-align: center;
+}
+
+.p1
+{
+  text-align: center;
+  text-decoration: underline;
+}
+
+body
+{
+  background-color: rgb(200, 255, 255);
+  margin: auto;
+  border: black;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  border-radius: 20%;
+  border-color: black;
+}
+
+ul:hover
+{
+  list-style: none;
+}
+
+button
+{
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+button:hover{
+  color: #ff7a59;
+  border: #ff7a59 solid 1px;
+  background:#fff;
+}
