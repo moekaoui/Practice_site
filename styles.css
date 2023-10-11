@@ -24,19 +24,47 @@ body
   border-color: black;
 }
 
-ul:hover
+ul
 {
-  list-style: none;
+  list-style: georgian;
 }
 
 button
 {
   border-radius: 10%;
   cursor: pointer;
+  align-self: baseline;
 }
 
-button:hover{
+button:hover
+{
   color: #ff7a59;
   border: #ff7a59 solid 1px;
   background:#fff;
+}
+
+.style1
+{
+margin: auto;
+padding-top: 20px;
+}
+
+a
+{
+  color: black;
+}
+
+a:hover
+{
+  color: white;
+}
+
+a:visited
+{
+  color:blue
+}
+
+a:active
+{
+  color: black;
 }
