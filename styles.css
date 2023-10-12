@@ -68,3 +68,10 @@ a:active
 {
   color: black;
 }
+
+@media screen and (max-width: 850px) {
+  iframe
+  {
+    max-width: fit-content;
+  }
+}
